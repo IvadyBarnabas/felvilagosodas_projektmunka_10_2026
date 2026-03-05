@@ -10,5 +10,5 @@ Feladatok felosztása:
 	ICON/képszerkesztés -> Barni 
 	internet surf -> Bence
 	fogalmazás/képek keresése -> Viki
-	
+Saját Nevű Weboldal -> akkor korhoz méltan
 	
