@@ -1,0 +1,14 @@
+Személyek a felvilágosodásból:
+	Napoleon Bonaparte -> Viki
+	George Washington -> Barni
+	Kopernikusz -> Bence
+Feladatok felosztása:
+	index/hírfolyam -> Bence
+		posztokat -> Barni
+	profilok -> Viki
+	css -> Barni
+	ICON/képszerkesztés -> Barni 
+	internet surf -> Bence
+	fogalmazás/képek keresése -> Viki
+	
+	
