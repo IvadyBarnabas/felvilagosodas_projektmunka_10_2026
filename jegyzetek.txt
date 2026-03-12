@@ -11,4 +11,5 @@ Feladatok felosztása:
 	internet surf -> Bence
 	fogalmazás/képek keresése -> Viki
 Saját Nevű Weboldal -> akkor korhoz méltan
+https://colorhunt.co/palette/eac696c8ae7d76582765451f <- Színek
 	
