@@ -12,4 +12,4 @@ Feladatok felosztása:
 	fogalmazás/képek keresése -> Viki
 Saját Nevű Weboldal -> akkor korhoz méltan
 https://colorhunt.co/palette/eac696c8ae7d76582765451f <- Színek
-	EAC696, C8AE7D, 765827, 65451F
+	#EAC696, #C8AE7D, #765827, #65451F
