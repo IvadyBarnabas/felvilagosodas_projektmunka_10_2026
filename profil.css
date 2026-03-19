@@ -1,0 +1,44 @@
+
+
+.profil_info {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.kep_ismerosok {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.kep_ismerosok img {
+
+}
+
+.kovetok {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+p {
+
+}
+
+.bemutatkozas {
+
+}
+
+.posztok {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.posztok img {
+    border: solid black 3px;
+    max-height: 400px;
+    padding: 10px;
+    
+}
+
