@@ -1,0 +1,38 @@
+.posztok {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.posztok img {
+    width: 100%;
+    height: auto;
+}
+
+.poszt {
+    max-width: 600px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.posztkepinfo {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.komment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.valasz {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 8px;
+}
