@@ -1,38 +1,86 @@
-
-.posztok img {
-    width: 100%;
-    height: auto;
+body {
+    font-family: Arial, sans-serif;
+    background: #EAC696;
 }
 
-.poszt {
-    max-width: 1000px;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+main {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 100px 1fr;
     gap: 20px;
 }
 
+aside {
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+}
+
+aside nav {
+    display: grid;
+    justify-items: center;
+    row-gap: 15px;
+}
+
+article {
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.posztok {
+    width: 600px;
+    display: grid;
+    row-gap: 20px;
+}
+
+.poszt {
+    display: grid;
+    row-gap: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.posztinfo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    position: relative;
+}
+
+.posztkep img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .posztkepinfo {
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 8px;
-    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+}
+
+.posztleiras {
+    display: grid;
+    row-gap: 10px;
+}
+
+.kommentek {
+    display: grid;
+    row-gap: 10px;
 }
 
 .komment {
-    margin-bottom: 10px;
     padding: 10px;
     border-radius: 8px;
 }
 
 .valasz {
-    margin-top: 5px;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-main {
-    gap: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 6px;
 }

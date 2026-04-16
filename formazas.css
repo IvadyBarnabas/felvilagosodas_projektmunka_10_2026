@@ -1,148 +1,143 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #EAC696;
+font-family: Arial, sans-serif;
+background: #EAC696;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background: #765827;
-    color: white;
+display: grid;
+grid-template-columns: auto 1fr;
+align-items: center;
+padding: 15px 30px;
+background: #765827;
+color: white;
 }
 
 .logo img {
-    height: 40px;
+height: 40px;
+}
+
+header nav {
+display: grid;
+grid-auto-flow: column;
+justify-content: end;
 }
 
 header nav a {
-    text-decoration: none;
-    background: #C8AE7D;
-    padding: 8px 16px;
-    margin-left: 10px;
-    border-radius: 6px;
-    color: black;
-    transition: 0.3s;
+text-decoration: none;
+background: #C8AE7D;
+padding: 8px 16px;
+margin-left: 10px;
+border-radius: 6px;
+color: black;
+transition: 0.3s;
 }
 
 header nav a:hover {
-    background: #65451F;
-    color: white;
+background: #65451F;
+color: white;
 }
 
 main {
-    display: flex;
+display: grid;
+grid-template-columns: 100px 1fr;
 }
 
 aside {
-    max-width: 100px;
-    background: #C8AE7D;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+background: #C8AE7D;
+padding-top: 20px;
+display: grid;
+justify-content: center;
 }
 
 aside nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+display: grid;
+justify-items: center;
+row-gap: 5px;
 }
 
 aside nav a {
-    font-size: 24px;
-    margin: 15px 0;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: 0.3s;
+font-size: 24px;
+padding: 8px;
+border-radius: 10px;
+text-decoration: none;
+transition: 0.3s;
 }
 
 aside nav a:hover {
-    background: #765827;
-    color: white;
-}
-
-article {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+background: #765827;
 }
 
 .posztok {
-    max-width: 1200px;
-    margin: auto;
+max-width: 1200px;
+margin: auto;
+display: grid;
+row-gap: 20px;
 }
 
 .poszt {
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+background: white;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+display: grid;
+row-gap: 15px;
 }
 
 .posztkep {
-    position: relative;
+position: relative;
 }
 
 .posztkep img {
-    width: 100%;
-    border-radius: 10px;
+width: 100%;
+border-radius: 10px;
 }
 
 .posztkepinfo {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(0,0,0,0.6);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 6px;
-    display: flex;
-    gap: 10px;
+position: absolute;
+bottom: 10px;
+left: 10px;
+background: rgba(0,0,0,0.6);
+color: white;
+padding: 5px 10px;
+border-radius: 6px;
+display: grid;
+grid-auto-flow: column;
+column-gap: 10px;
 }
 
 .posztleiras {
-    margin-top: 15px;
-    color: #333;
+margin-top: 15px;
+color: #333;
 }
 
 .komment {
-    background: #EAC696;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+background: #EAC696;
+margin-bottom: 10px;
 }
 
 .komment h2 {
-    margin-bottom: 5px;
+margin-bottom: 5px;
 }
 
 .valasz {
-    background: #C8AE7D;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 20px;
-    border-radius: 8px;
+background: #C8AE7D;
 }
 
 .valasz h3 {
-    margin-bottom: 5px;
+margin-bottom: 5px;
 }
 
 footer {
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-    background: #765827;
-    color: white;
-    margin-top: 20px;
+width: 100%;
+text-align: center;
+padding: 15px;
+background: #765827;
+color: white;
+margin-top: 20px;
 }
