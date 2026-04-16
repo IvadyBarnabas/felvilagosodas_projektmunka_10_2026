@@ -43,16 +43,9 @@ background: #65451F;
 color: white;
 }
 
-main {
-display: grid;
-grid-template-columns: 100px 1fr;
-}
-
 aside {
 background: #C8AE7D;
 padding-top: 20px;
-display: grid;
-justify-content: center;
 }
 
 aside nav {
@@ -134,10 +127,41 @@ margin-bottom: 5px;
 }
 
 footer {
-width: 100%;
-text-align: center;
-padding: 15px;
-background: #765827;
-color: white;
-margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background: #765827;
+    color: white;
+    margin-top: 20px;
+}
+.profil-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.profil-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s;
+    max-height: 300px;
+    max-width: 400px;
+}
+.profil-card:hover{
+    background-color: #765827;
+    transform: translateY(-5px);
+}
+.profil-card a{
+    text-decoration: none;
+    color: #765827;
+    transition: all 0.3s;
+}
+.profil-card:hover a{
+    color: white;
+}
+.profil-card img{
+    width: 200px;
+    border-radius: 20px;
+    max-width: 100%;
 }
