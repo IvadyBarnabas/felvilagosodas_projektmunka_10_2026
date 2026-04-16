@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 body {
     font-family: Arial, sans-serif;
     background: #EAC696;
 }
-
+ 
 header {
     display: flex;
     justify-content: space-between;
@@ -17,11 +17,11 @@ header {
     background: #765827;
     color: white;
 }
-
+ 
 .logo img {
     height: 40px;
 }
-
+ 
 header nav a {
     text-decoration: none;
     background: #C8AE7D;
@@ -31,30 +31,29 @@ header nav a {
     color: black;
     transition: 0.3s;
 }
-
+ 
 header nav a:hover {
     background: #65451F;
     color: white;
 }
-
+ 
 main {
     display: flex;
 }
-
+ 
 aside {
-    max-width: 100px;
     background: #C8AE7D;
     display: flex;
     justify-content: center;
     padding-top: 20px;
 }
-
+ 
 aside nav {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+ 
 aside nav a {
     font-size: 24px;
     margin: 15px 0;
@@ -63,24 +62,24 @@ aside nav a {
     text-decoration: none;
     transition: 0.3s;
 }
-
+ 
 aside nav a:hover {
     background: #765827;
     color: white;
 }
-
+ 
 article {
     flex: 1;
     display: flex;
     justify-content: center;
     padding: 30px;
 }
-
+ 
 .posztok {
     max-width: 1200px;
     margin: auto;
 }
-
+ 
 .poszt {
     background: white;
     border-radius: 12px;
@@ -88,16 +87,16 @@ article {
     margin-bottom: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
-
+ 
 .posztkep {
     position: relative;
 }
-
+ 
 .posztkep img {
     width: 100%;
     border-radius: 10px;
 }
-
+ 
 .posztkepinfo {
     position: absolute;
     bottom: 10px;
@@ -109,23 +108,23 @@ article {
     display: flex;
     gap: 10px;
 }
-
+ 
 .posztleiras {
     margin-top: 15px;
     color: #333;
 }
-
+ 
 .komment {
     background: #EAC696;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
-
+ 
 .komment h2 {
     margin-bottom: 5px;
 }
-
+ 
 .valasz {
     background: #C8AE7D;
     padding: 10px;
@@ -133,11 +132,11 @@ article {
     margin-left: 20px;
     border-radius: 8px;
 }
-
+ 
 .valasz h3 {
     margin-bottom: 5px;
 }
-
+ 
 footer {
     width: 100%;
     text-align: center;
