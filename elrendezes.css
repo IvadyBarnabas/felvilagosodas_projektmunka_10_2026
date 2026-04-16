@@ -36,3 +36,12 @@
     padding: 10px;
     border-radius: 8px;
 }
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "aside article"
+    "footer footer";
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
