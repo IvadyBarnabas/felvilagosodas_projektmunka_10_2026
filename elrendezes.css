@@ -34,9 +34,5 @@
 }
 
 main {
-    display: grid;
-    grid-template-areas: 
-    "aside article";
-    grid-template-columns: 1fr 2fr;
     gap: 20px;
 }
