@@ -55,7 +55,7 @@ row-gap: 5px;
 }
 
 aside nav a {
-font-size: 24px;
+font-size: 40px;
 padding: 8px;
 border-radius: 10px;
 text-decoration: none;
@@ -132,7 +132,6 @@ footer {
     padding: 15px;
     background: #765827;
     color: white;
-    margin-top: 20px;
 }
 .profil-cards{
     display: grid;
