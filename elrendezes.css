@@ -25,7 +25,7 @@ article {
 }
 
 .posztok {
-    width: 600px;
+    max-width: 700px;
     display: grid;
     row-gap: 20px;
 }
@@ -33,7 +33,6 @@ article {
 .poszt {
     display: grid;
     row-gap: 15px;
-    background: white;
     padding: 20px;
     border-radius: 12px;
 }
