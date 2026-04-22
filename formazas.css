@@ -193,17 +193,41 @@ footer {
     display: block;
     margin:auto ;
 }
+.profil-stats{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+span {
+    position: absolute;
+bottom: 10px;
+left: 10px;
+background: rgba(0,0,0,0.6);
+color: white;
+padding: 5px 10px;
+border-radius: 6px;
+display: grid;
+grid-auto-flow: column;
+column-gap: 10px;
+margin-bottom: 10px;
+    }
 
 a {
     text-decoration: none;
     color: #333
 }
 
-@media (max-width: 800px) {
+@media and screen(max-width: 800px) {
     main {
         display:grid;
         grid-template-columns: 1fr 1fr;
         padding: 10px;
     }
+    aside {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     
-}
+    
+}   
