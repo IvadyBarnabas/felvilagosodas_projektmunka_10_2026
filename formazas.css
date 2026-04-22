@@ -19,7 +19,8 @@ color: white;
 }
 
 .logo img {
-height: 40px;
+height: 80px;
+margin-left: 15px;
 }
 
 header nav {
@@ -36,6 +37,7 @@ margin-left: 10px;
 border-radius: 6px;
 color: black;
 transition: 0.3s;
+font-size: 18px;
 }
 
 header nav a:hover {
@@ -89,6 +91,7 @@ position: relative;
 .posztkep img {
 width: 100%;
 border-radius: 10px;
+margin-bottom: 10px;
 }
 
 .posztkepinfo {
@@ -102,6 +105,7 @@ border-radius: 6px;
 display: grid;
 grid-auto-flow: column;
 column-gap: 10px;
+margin-bottom: 10px;
 }
 
 .posztleiras {
@@ -163,4 +167,42 @@ footer {
     width: 200px;
     border-radius: 20px;
     max-width: 100%;
+}
+.profil-fejlec {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+.poszt-grid {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+.poszt-kartya {
+    background-color: #c8ae7db4;
+    padding: 10px;
+    border-radius: 12px;
+    transition: all 0.6s;
+}
+.poszt-kartya:hover {
+    transform: scale(1.05);
+}
+.poszt-kartya img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    margin:auto ;
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+@media (max-width: 800px) {
+    main {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+    }
 }
