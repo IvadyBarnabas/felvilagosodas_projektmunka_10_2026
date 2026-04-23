@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+}
 
 body {
 font-family: Arial, sans-serif;
@@ -249,55 +249,4 @@ footer {
 a {
     text-decoration: none;
     color: #333
-}
-
-@media screen and (
-    max-width: 768px
-) {
-    .profil-cards {
-        grid-template-columns: 1fr 1fr;
-    }
-    .profil-fejlec {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    .profil-kep {
-        width: 200px;
-        height: 200px;
-        margin: auto;
-    }
-    .profil-stats {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-    .poszt-grid {
-        grid-template-columns: 1fr;
-    }
-}
-@media screen and (max-width: 480px) {
-    .profil-cards {
-        grid-template-columns: 1fr;
-    }
-    header {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    header nav {
-        justify-content: center;
-        margin-top: 10px;
-    }
-    .profil-fejlec {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    .profil-kep {
-        width: 150px;
-        height: 150px;
-        margin: auto;
-    }
-    .profil-stats {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-    
 }
