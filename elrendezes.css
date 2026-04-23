@@ -1,21 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 main {
     display: grid;
     grid-template-columns: 150px 1fr;
     gap: 20px;
+    align-items: start;
+    padding: 20px;
 }
 
+
 aside {
-    height: auto;
     max-width: 150px;
     display: grid;
     justify-content: center;
+    align-self: start;
+    border-radius: 10px;
+    position: sticky;
+    top: 50px;
 }
 
 aside nav {
-    align-self: start;
     display: grid;
     justify-items: center;
-    row-gap: 1px;
+    row-gap: 10px;
 }
 
 article {
@@ -53,7 +68,6 @@ article {
     position: absolute;
     bottom: 10px;
     left: 10px;
-
     display: grid;
     grid-auto-flow: column;
     column-gap: 10px;
@@ -79,4 +93,8 @@ article {
     margin-left: 20px;
     padding: 8px;
     border-radius: 6px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
 }

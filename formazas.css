@@ -136,6 +136,8 @@ footer {
     padding: 15px;
     background: #765827;
     color: white;
+    position: fixed;
+    bottom: 0;
 }
 .profil-cards{
     display: grid;
@@ -152,7 +154,7 @@ footer {
     max-width: 400px;
 }
 .profil-card:hover{
-    background-color: #765827;
+    background-color: #65451F;
     transform: translateY(-5px);
 }
 .profil-card a{
@@ -226,12 +228,16 @@ footer {
 }
 
 .poszt-kartya {
-    overflow: hidden;
-    transition: transform 0.3s ease;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 15px;
+    transition: all 0.3s;
 }
 
 .poszt-kartya:hover {
     transform: scale(1.05);
+    padding: 10px;
+    background-color: #65451F;
 }
 
 .poszt-kartya img {
@@ -248,6 +254,9 @@ a {
 @media screen and (
     max-width: 768px
 ) {
+    .profil-cards {
+        grid-template-columns: 1fr 1fr;
+    }
     .profil-fejlec {
         grid-template-columns: 1fr;
         text-align: center;
@@ -264,4 +273,31 @@ a {
     .poszt-grid {
         grid-template-columns: 1fr;
     }
+}
+@media screen and (max-width: 480px) {
+    .profil-cards {
+        grid-template-columns: 1fr;
+    }
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    header nav {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .profil-fejlec {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .profil-kep {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    .profil-stats {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
 }
